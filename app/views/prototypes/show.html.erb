@@ -12,7 +12,7 @@
         </div>
       <% end %>
       <div class="prototype__image">
-        <%= link_to image_tag(prototype.image, class: :card__img ), prototype_path(prototype) %>
+        <%= image_tag @prototype.image %>
       </div>
       <div class="prototype__body">
         <div class="prototype__detail">
